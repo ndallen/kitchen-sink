@@ -6,10 +6,16 @@ function sayHello() {
 }
 sayHello();
 
+****************************************************************************************************
+
 const favVegetables = ['Carrot', 'Beetroot', 'Spinach', 'Potato'];
 for (let i = 0; i < favVegetables.length; i++) {
   console.log(favVegetables[i]);
 }
+
+
+****************************************************************************************************
+
 
 function checkAge(name, age) {
   if (age < 21) {
@@ -22,6 +28,10 @@ checkAge('Neil', 45);
 checkAge('Jack', 9);
 checkAge('Leanne', 44);
 checkAge('John', 21)
+
+
+****************************************************************************************************
+
 
 let friends = [
   { name: 'Mark', age: 45 },
